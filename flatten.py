@@ -2,6 +2,7 @@ import pandas as pd
 import json
 from pandas import json_normalize
 
+# read sample unflattened data
 file_path = r'C:\Users\VidhikaSingh\Downloads\sample_data.csv'
 df = pd.read_csv(file_path)
 df = df[['id', 'created_at', 'updated_at', 'status', 'knockout', 'score_card', 'loan_offers_list', 'stpl_knockout', 'stpl_score']]
